@@ -1,0 +1,17 @@
+{
+	"name": "Core: Nucleus",
+	"description": "The third and final iteration of the core capsule. Extremely well armored. Stores massive amounts of resources.",
+	"type": "Vault",
+	"itemCapacity": 13000,
+	"hasItems": true,
+	"health": 4000,
+	"size": 5,
+	"requirements": [
+		{ "item": "aluminium", "amount": 150 },
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "silicon", "amount": 100 },
+    { "item": "copper", "amount": 500}
+	],
+	"category": "effect",
+	"research": "core-shard"
+}

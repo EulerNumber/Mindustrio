@@ -1,0 +1,28 @@
+
+{
+"name": "Plutonium PWR",
+"description": "Produces a significant amount of power using nuclear chain reactions and pressurised water.",
+"type": "SingleTypeGenerator",
+"size": 4,
+"hasPower": true,
+"hasItems": true,
+"itemDuration": 30,
+"powerProduction": 14.0,
+
+"consumes": {
+  "items": {
+    "items": [
+      {"item": "plutonium", "amount": 3}
+    ]
+  }
+},
+"category": "power",
+"research": "thorium-reactor",
+"requirements": [
+  { "item": "lead", "amount": 200 },
+  { "item": "metaglass", "amount": 90 },
+  { "item": "silicon", "amount": 70 },
+  { "item": "titanium", "amount": 70 },
+  { "item": "copper", "amount": 300}
+]
+}

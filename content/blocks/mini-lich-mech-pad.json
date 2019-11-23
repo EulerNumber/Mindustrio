@@ -1,0 +1,18 @@
+{
+	"name": "Mini Lich Mech Pad",
+	"description": "Transform into the Lich.",
+	"type": "MechPad",
+	"mech": "mini-lich",
+	"size": 3,
+	"consumes": {
+		"power": 0.7
+	},
+	"category": "upgrade",
+	"research": "omega-mech-pad",
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "aluminium", "amount": 70 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "graphite", "amount": 100 },
+	]
+}

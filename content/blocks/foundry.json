@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Aluminium Foundry",
+	"description": "Processes impure aluminium ore into industry ready aluminium. Produces slag as a byproduct.",
+	"liquidCapacity": 50,
+	"outputLiquid": {"liquid": "slag", "amount": 7.0},
+  "outputItem": {"item": "aluminium", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 70,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+    "power": 0.9,
+    "items": {
+      "items": [
+        { "item": "aluminium-ore", "amount": 3}
+      ]
+  },
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 500 },
+		{ "item": "copper", "amount": 800 },
+		{ "item": "silicon", "amount": 150 },
+    { "item": "titanium", "amount": 150}
+	],
+	"category": "crafting",
+	"research": "melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

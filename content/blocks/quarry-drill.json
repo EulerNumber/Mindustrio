@@ -1,0 +1,24 @@
+{
+	"name": "Quarry",
+	"description": "Machine for massive mining operations. Uses significant amounts of power. Fill with coolant to enhance performance.",
+	"type": "Drill",
+	"size": 3,
+	"tier": 4,
+	"drillTime": 90,
+	"consumes": {
+		"power": 4.0,
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.4,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "aluminium", "amount": 150 },
+		{ "item": "silicon", "amount": 350 },
+		{ "item": "graphite", "amount": 100 },
+    { "item": "thorium", "amount": 200},
+	],
+	"category": "production",
+	"research": "blast-drill"
+}
