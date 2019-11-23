@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Aluminium Ore",
+	"description": "Impure rock with traces of aluminium.",
+	"hardness": 3,
+	"color": "ffffff"
+}
