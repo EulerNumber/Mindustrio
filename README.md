@@ -1,4 +1,4 @@
-# MindustryMod
+# NewIndustry
 A simple mod for Mindustry. Adds new mechs, machines, and resources.
 - Resources added: Plutonium, Uranium, Aluminium Ore
 - Materials added: Aluminium
