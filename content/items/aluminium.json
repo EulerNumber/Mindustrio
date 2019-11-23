@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Aluminium",
+	"description": "A lightweight, flexible, and strong metal.",
+	"cost": 2.0,
+	"color": "ffffff"
+}

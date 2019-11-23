@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Uranium",
+	"description": "Radioactive element used in plutonium breeders.",
+	"hardness": 4,
+	"color": "ffffff"
+}
