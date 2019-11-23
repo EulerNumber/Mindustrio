@@ -1,0 +1,27 @@
+{
+	"name": "Xinjiang",
+	"description": "Snowy region in Western China. Beware of the Uyghurs who live in the caves.",
+	"loadout": "basicNucleus",
+    "startingItems": [
+    	{"item": "copper", "amount": 200},
+    	{"item": "lead", "amount": 300}
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 10,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "groundZero",
+    		"wave": 1
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "thorium-reactor"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "blast-drill"
+    	}
+    ],
+    "resources": ["copper", "aluminium-ore", "lead", "coal", "sand", "uranium", "thorium", "titanium", "scrap"]
+}
