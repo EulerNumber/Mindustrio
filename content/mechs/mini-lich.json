@@ -2,7 +2,9 @@
 	"name": "Lich Lite",
 	"description": "A capitalist version of the dreaded Lich. Sprays missiles indefinitely at enemies.",
 	"speed": 1.5,
-	"boostSpeed": 1.5,
+	"drillPower": 2,
+	"maxSpeed": 2.0,
+	"mass": 2,
 	"buildPower": 2.0,
 	"engineColor": "666495",
 	"flying": true,
@@ -15,24 +17,29 @@
 		"alternate": false,
 		"bullet": {
     "type": "MissileBulletType",
-    "lifetime": 800,
-    "speed": 2,
-    "splashDamageRadius": 70,
-    "splashDamage": 10000,
+    "lifetime": 400,
+    "speed": 1.5,
+    "splashDamageRadius": 60,
+    "splashDamage": 7000,
     "frontColor": "ffff00",
     "backColor": "00ffff",
     "homingPower": 5,
-    "homingRange": 300,
+    "homingRange": 500,
     "fragBullets": 5,
-    "fragBullet": {
+		"fragBullet": {
         "type": "LiquidBulletType"
         "liquid": "oil",
         "lifetime": 2,
         "speed": 1,
-        "fragBullets": 4,
-
-
-}
+        "fragBullets": 2,
+        "fragBullet": {
+            "type": "LiquidBulletType"
+            "liquid": "slag",
+            "lifetime": 1,
+            "speed": 2,
+            "damage": 1,
+        }
+    }
 }
 	}
 }
