@@ -7,12 +7,12 @@
 "hasPower": true,
 "hasItems": true,
 "itemDuration": 30,
-"powerProduction": 14.0,
+"powerProduction": 15.0,
 
 "consumes": {
   "items": {
     "items": [
-      {"item": "plutonium", "amount": 3}
+      {"item": "plutonium", "amount": 1}
     ]
   }
 },
