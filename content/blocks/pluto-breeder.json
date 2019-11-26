@@ -8,10 +8,10 @@
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
-	"craftTime": 60,
+	"craftTime": 45,
 
 	"consumes": {
-		"power": 0.7,
+		"power": 0.4,
 		"items": {
 			"items": [
 				{ "item": "uranium", "amount": 2 },

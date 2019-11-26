@@ -7,11 +7,6 @@
 	"drillTime": 90,
 	"consumes": {
 		"power": 4.0,
-		"liquid": {
-			"liquid": "cryofluid",
-			"amount": 0.4,
-			"booster": true
-		}
 	},
 	"requirements": [
 		{ "item": "aluminium", "amount": 150 },
