@@ -1,0 +1,7 @@
+{
+	"type": "resource",
+	"name": "Maize",
+	"description": "Food for some, fuel for others.",
+	"hardness": 1,
+	"color": "ffffff"
+}
