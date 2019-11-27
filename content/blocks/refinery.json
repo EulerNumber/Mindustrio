@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Biodiesel Refinery",
+	"description": "Processes impure aluminium ore into industry ready aluminium. Produces slag as a byproduct.",
+	"liquidCapacity": 70,
+	"outputLiquid": {"liquid": "biodiesel", "amount": 7},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 10,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+    "power": 0.6,
+    "items": {
+      "items": [
+        { "item": "maize", "amount": 1}
+      ]
+  },
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 500 },
+		{ "item": "copper", "amount": 800 },
+		{ "item": "silicon", "amount": 150 },
+    { "item": "aluminium", "amount": 80}
+	],
+	"category": "crafting",
+	"research": "melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

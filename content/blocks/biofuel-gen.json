@@ -1,0 +1,31 @@
+{
+"name": "Biofuel Generator",
+"description": "Improved combustion generator that burns biofuel and potatoes. Very environmentally friendly.",
+"type": "SingleTypeGenerator",
+"size": 3,
+"hasItems": true,
+"hasPower": true,
+"itemDuration": 30,
+"powerProduction": 10.0,
+
+"consumes": {
+  "liquid": {
+    "liquid": "biodiesel",
+    "amount": 0.3
+  },
+  "items": {
+    "items": [
+      { "item": "copper", "amount": 1}
+    ]
+  }
+},
+"category": "power",
+"research": "combustion-generator",
+"requirements": [
+  { "item": "lead", "amount": 200 },
+  { "item": "metaglass", "amount": 90 },
+  { "item": "silicon", "amount": 70 },
+  { "item": "aluminium", "amount": 80},
+  { "item": "copper", "amount": 100}
+]
+}
