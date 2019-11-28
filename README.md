@@ -5,4 +5,34 @@
 
 A simple mod for Mindustry.
 
-### New Content
+## New Content
+
+#### Materials
+- Aluminium
+
+#### Liquids
+- Biodiesel
+
+#### Resources
+- Aluminium Ore
+- Uranium
+- Plutonium
+- Maize
+
+#### Power Supply
+- Plutonium Pressurised Water Reactor
+- Biofuel Generator
+
+#### Machines
+- Aluminium Conveyor
+- Maize Farm
+- Aluminium Foundry
+- Plutonium Breeder
+- Quarry
+- Refinery
+
+#### Storage
+- Core: Nucleus Storage Unit
+
+#### Mechs
+- Mini-Lich Mech + Pad
