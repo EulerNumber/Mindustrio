@@ -3,7 +3,7 @@
 
 
 
-A simple mod for Mindustry.
+Factorio for Mindustry
 
 ## New Content
 
