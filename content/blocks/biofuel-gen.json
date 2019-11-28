@@ -22,10 +22,10 @@
 "category": "power",
 "research": "combustion-generator",
 "requirements": [
-  { "item": "lead", "amount": 200 },
-  { "item": "metaglass", "amount": 90 },
-  { "item": "silicon", "amount": 70 },
-  { "item": "aluminium", "amount": 80},
+  { "item": "lead", "amount": 150 },
+  { "item": "metaglass", "amount": 20 },
+  { "item": "silicon", "amount": 15 },
+  { "item": "aluminium", "amount": 40},
   { "item": "copper", "amount": 100}
 ]
 }
