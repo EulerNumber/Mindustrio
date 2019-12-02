@@ -42,7 +42,9 @@
     { "item": "lead", "amount": 500 },
     { "item": "copper", "amount": 800 },
     { "item": "thorium", "amount": 150 },
-    { "item": "aluminium", "amount": 150}
+    { "item": "aluminium", "amount": 200},
+    { "item": "surge-alloy", "amount": 100},
+    { "item": "titanium", "amount": 150}
 ],
 "category": "turret",
 "research": "swarmer"
