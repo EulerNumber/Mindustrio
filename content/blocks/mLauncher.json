@@ -17,7 +17,7 @@
         "speed": 1.25,
         "frontColor": "ffffff",
         "backColor": "000000",
-        "splashDamageRadius": 2000,
+        "splashDamageRadius": 500,
         "splashDamage": 30000,
         "homingPower": 10,
         "homingRange": 2000,
