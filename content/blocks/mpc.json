@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"name": "Missile Assembly Complex",
 	"description": "Constructs the DF-41 洲际导弹 from massive amounts of materials.",
-  "outputItem": {"item": "missile", "amount": 1},
+  	"outputItem": {"item": "missile", "amount": 1},
 	"size": 3,
 	"hasPower": true,
 	"craftTime": 100,
@@ -12,10 +12,10 @@
     "items": {
       "items": [
         { "item": "aluminium", "amount": 2},
-        { "item": "plutonium", "amount": 2},
+        { "item": "plutonium", "amount": 1},
         { "item": "silicon", "amount": 1}
       ]
-  },
+  }
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 100 },

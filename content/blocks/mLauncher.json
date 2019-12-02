@@ -4,8 +4,8 @@
 "description": "Launches DF-41 洲际导弹 at enemies. Annihilation and satisfaction guaranteed.",
 "health": 1200,
 "size": 4,
-"reload": 300,
-"range": 2000,
+"reload": 400,
+"range": 5000,
 "itemCapacity": 1,
 "ammoUseEffect": "shootPyraFlame",
 "inaccuracy": 0,
@@ -17,7 +17,7 @@
         "speed": 1.25,
         "frontColor": "ffffff",
         "backColor": "000000",
-        "splashDamageRadius": 200,
+        "splashDamageRadius": 2000,
         "splashDamage": 30000,
         "homingPower": 10,
         "homingRange": 2000,
@@ -40,11 +40,11 @@
 },
 "requirements": [
     { "item": "lead", "amount": 500 },
-    { "item": "copper", "amount": 800 },
-    { "item": "thorium", "amount": 150 },
-    { "item": "aluminium", "amount": 200},
-    { "item": "surge-alloy", "amount": 100},
-    { "item": "titanium", "amount": 150}
+    { "item": "copper", "amount": 500 },
+    { "item": "thorium", "amount": 100 },
+    { "item": "aluminium", "amount": 100},
+    { "item": "surge-alloy", "amount": 50},
+    { "item": "titanium", "amount": 50}
 ],
 "category": "turret",
 "research": "swarmer"
