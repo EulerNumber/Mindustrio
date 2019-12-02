@@ -1,0 +1,49 @@
+{
+"type": "ItemTurret",
+"name": "Missile Silo",
+"description": "Launches DF-41 洲际导弹 at enemies. Annihilation and satisfaction guaranteed.",
+"health": 1200,
+"size": 4,
+"reload": 300,
+"range": 2000,
+"itemCapacity": 1,
+"ammoUseEffect": "shootPyraFlame",
+"inaccuracy": 0,
+"rotatespeed": 7,
+"ammo": {
+    "missile": {
+        "type": "MissileBulletType",
+        "lifetime": 1200,
+        "speed": 1.25,
+        "frontColor": "ffffff",
+        "backColor": "000000",
+        "splashDamageRadius": 200,
+        "splashDamage": 30000,
+        "homingPower": 10,
+        "homingRange": 2000,
+        "fragBullets": 3,
+        "fragBullet": {
+            "type": "LiquidBulletType",
+            "liquid": "oil",
+            "lifetime": 2,
+            "speed": 1,
+            "fragBullets": 2,
+            "fragBullet": {
+                "type": "LiquidBulletType",
+                "liquid": "slag",
+                "lifetime": 1,
+                "speed": 2,
+                "damage": 1
+            }
+        }
+    }
+},
+"requirements": [
+    { "item": "lead", "amount": 500 },
+    { "item": "copper", "amount": 800 },
+    { "item": "thorium", "amount": 150 },
+    { "item": "aluminium", "amount": 150}
+],
+"category": "turret",
+"research": "swarmer"
+}

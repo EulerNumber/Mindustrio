@@ -6,13 +6,13 @@
 	"tier": 4,
 	"drillTime": 90,
 	"consumes": {
-		"power": 4.0,
+		"power": 4.0
 	},
 	"requirements": [
 		{ "item": "aluminium", "amount": 150 },
 		{ "item": "silicon", "amount": 350 },
 		{ "item": "graphite", "amount": 100 },
-    { "item": "thorium", "amount": 200},
+    { "item": "thorium", "amount": 200}
 	],
 	"category": "production",
 	"research": "blast-drill"

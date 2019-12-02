@@ -3,12 +3,12 @@
 	"name": "Plutonium Breeder",
 	"description": "Combines uranium and blast compound to synthesise plutonium. Requires water to operate.",
 	"liquidCapacity": 100,
-	"outputItem": {"item": "plutonium", "amount": 1},
+	"outputItem": {"item": "plutonium", "amount": 2},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
-	"craftTime": 45,
+	"craftTime": 25,
 
 	"consumes": {
 		"power": 0.4,
