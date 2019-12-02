@@ -43,7 +43,7 @@
     { "item": "copper", "amount": 500 },
     { "item": "thorium", "amount": 100 },
     { "item": "aluminium", "amount": 100},
-    { "item": "surge-alloy", "amount": 50},
+    { "item": "surge-alloy", "amount": 350},
     { "item": "titanium", "amount": 50}
 ],
 "category": "turret",
